@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Vasavi_College_of_Engineering_logo.png/220px-Vasavi_College_of_Engineering_logo.png" alt="Vasavi College of Engineering Logo" width="150" />
+  <img src="[https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Vasavi_College_of_Engineering_logo.png/220px-Vasavi_College_of_Engineering_logo.png" alt="Vasavi College of Engineering Logo](https://vce.ac.in/assets/img/logo.svg)" width="150" />
 </p>
 
 # Question Paper Repository
