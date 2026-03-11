@@ -30,7 +30,7 @@ const AdminLogin = () => {
       }
 
       console.log("Attempting login with email:", email);
-      
+
       // First attempt authentication
       const { data, error: signInError } = await supabase.auth.signInWithPassword({
         email: email.trim(),
@@ -67,16 +67,16 @@ const AdminLogin = () => {
       }
 
       console.log("Login successful for user:", data.user.email);
-      
+
       localStorage.setItem('adminAuthenticated', 'true');
-      
+
       toast({
         title: "Success",
         description: "Successfully logged in as admin",
       });
-      
+
       navigate('/admin/dashboard');
-      
+
     } catch (error) {
       console.error('Login error:', error);
       toast({
@@ -97,10 +97,10 @@ const AdminLogin = () => {
             <ArrowLeft className="h-5 w-5 mr-2" />
             Back to Home
           </Link>
-          <img 
-            src="https://www.graduatesengine.com/assets/uploads/listingsThumbnail/ge/vasavi-college-of-engineering.gif" 
-            alt="VCE Logo" 
-            className="mx-auto h-32 w-auto object-contain rounded-lg shadow-sm" 
+          <img
+            src="https://vce.ac.in/assets/img/logo.svg"
+            alt="VCE Logo"
+            className="mx-auto h-32 w-auto object-contain rounded-lg shadow-sm"
           />
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Admin Login
