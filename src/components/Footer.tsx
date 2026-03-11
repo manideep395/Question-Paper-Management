@@ -14,15 +14,7 @@ export const Footer = () => {
           >
             Kasireddy Manideep Reddy
           </Link>
-          {" & "}
-          <Link
-            to="https://www.linkedin.com/in/dspraneeth"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-accent transition-colors underline"
-          >
-            Dhadi Sai Praneeth Reddy
-          </Link>
+
         </p>
       </div>
     </footer>

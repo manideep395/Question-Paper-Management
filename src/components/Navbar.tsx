@@ -126,7 +126,7 @@ export const Navbar = ({ onSearchResults }: NavbarProps) => {
         {/* Left - Logo */}
         <Link to="/" className="flex-shrink-0">
           <img 
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Vasavi_College_of_Engineering_logo.png/220px-Vasavi_College_of_Engineering_logo.png" 
+            src="https://vce.ac.in/assets/img/logo.svg" 
             alt="VCE Logo" 
             className="h-28 w-28 object-contain bg-white rounded-full p-1"
           />
