@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Vasavi_College_of_Engineering_logo.png/220px-Vasavi_College_of_Engineering_logo.png" alt="Vasavi College of Engineering Logo" width="150" />
+</p>
+
 # Question Paper Repository
 
 A modern full-stack web application designed to serve as a comprehensive, organized repository for university question papers. Students can browse, view, and download previous question papers split across different branches, years, and semesters. 
